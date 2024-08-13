@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h1{
+    background-color: #1b1b1b;
+    color: #ffffff;
+    padding: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91.6vh;
+    width: 100vw;
+    background-color: #ffc3ad;
+}
+.container{
+    min-width: 30vw;
+    width: 80vw;
+    background-color: #1b1b1b;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+select{
+    width: 49%;
+    height: fit-content;
+    outline: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-size: 1.5em;
+    background-color: #f9ff88;
+}
+input{
+    width: 49%;
+    height: 35px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 1em;
+    margin-top: 13px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+button{
+    padding: 10px 15px;
+    font-size: 1.4em;
+    background-color: #ffff71;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 37%;
+    font-weight: bold;
+}
+
+@media screen and (min-width:426px){
+    .container{
+        width: 60vw;
+    }
+}
+@media screen and (min-width:1024px){
+    .container{
+        width: 30vw;
+    }
+}
